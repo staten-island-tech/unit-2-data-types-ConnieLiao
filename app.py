@@ -12,3 +12,9 @@ y= x.split( )
 z = y[0]
 print(y)
 print(z)
+Day_of_the_week = input("What day is today")
+if Day_of_the_week == "Friday":
+    print ("corect")
+else:
+    print ("incorrect")
+
