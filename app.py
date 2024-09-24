@@ -1,4 +1,4 @@
-x = 3
+""" x = 3
 y = float(3)
 print (x,y)
 values = [1,2.23,5,7,2,30,15]
@@ -27,14 +27,13 @@ else:
 if 887 % 2 == 0:
     print("the number is even") 
 else:
-    print("the number is odd")
-tip = service was bad
-bill = 18.90 
-if tip == service was bad and bill == 18.90:
-    print("bill+tip 0%")
-elif tip == service was okay and bill == 18.90:
-    print("bill+tip 15%")
-elif tip == service was good and bill == 18.90:
-    print("bill+tip 20%")
+    print("the number is odd") """
+service = 'great'
+if service == 'bad':
+    print("the service is bad,YOU PAY $18.90 and tip 0%")
+elif service == 'okay':
+    print("the service is okay,YOU PAY $18.90 and tip 15%")
+elif service == 'good':
+    print("the service is good,YOU PAY $18.90 and tip 20")
 else:
-    print("bill+tip 255")
+    print("serivce is WONDERFUl,YOU PAY $18.90 and tip 25%")
