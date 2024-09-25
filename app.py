@@ -1,4 +1,4 @@
-""" x = 3
+""" """ """ """ """ x = 3
 y = float(3)
 print (x,y)
 values = [1,2.23,5,7,2,30,15]
@@ -24,16 +24,22 @@ elif temp == 68:
     print('perfect')
 else:
     print('cold')
+#challeng 1
 if 887 % 2 == 0:
     print("the number is even") 
 else:
-    print("the number is odd") """
-service = 'great'
+    print("the number is odd") 
+#challenge 2 """ """ """
+service = input("how was service? ")
+bill=("$18.90")
 if service == 'bad':
-    print("the service is bad,YOU PAY $18.90 and tip 0%")
+     print("the service is BAD,YOU PAY $18.90 and tip 0%")
 elif service == 'okay':
-    print("the service is okay,YOU PAY $18.90 and tip 15%")
+     print("the service is OKAY,YOU PAY $18.90 and tip 15%")
+     print("$"(18.90 * 0.15)+18.90)
 elif service == 'good':
-    print("the service is good,YOU PAY $18.90 and tip 20")
+     print("the service is GOOD,YOU PAY $18.90 and tip 20%")
+     print((18.90 * 0.20)+18.90)
 else:
-    print("serivce is WONDERFUl,YOU PAY $18.90 and tip 25%")
+     print("the serivce is WONDERFUl,YOU PAY $18.90 and tip 25%")
+     print((18.90 * 0.25)+18.90) 
