@@ -1,4 +1,4 @@
-x = 3
+""" x = 3
 y = float(3)
 print (x,y)
 
@@ -30,13 +30,19 @@ elif temp == 68:
 else:
     print('cold')
 
-#challeng 1
+#challeng 1-1
+sentence = " This is a sentence"
+x = sentence.split(" ") 
+print (x)
+print (len(x))
+
+#challeng 2-1
 if 887 % 2 == 0:
     print("the number is even") 
 else:
     print("the number is odd") 
 
-#challenge 2 
+#challenge 2-2 
 service = input("how was service? ")
 bill=("$18.90")
 if service == 'bad':
@@ -51,15 +57,20 @@ else:
    print("the serivce is WONDERFUl,YOU PAY $18.90 and tip 25%")
    print((18.90 * 0.25)+18.90)   
 
-#challenge 3 
+#challenge 2-3 
 a=90
 for i in range (2,a+1):
  if a % i == 0:
     print(i)
 
-#challenge 4
+#challenge 2-4
 a=42 
 b=54
 for i in range (2,a+1):
  if a % i == 0 and b % i == 0:
-     print(i)
+     print(i) """
+
+#challenge 1-2: Mad lib project
+
+x = "test"
+print(f"hello {x}")
