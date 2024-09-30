@@ -31,6 +31,10 @@ else:
     print('cold')
 
 #challeng 1-1
+student = ["person 1", "person 2", "person 3"]
+print(student)
+for i in student:
+    print(i)
 sentence = " This is a sentence"
 x = sentence.split(" ") 
 print (x)
@@ -71,6 +75,11 @@ for i in range (2,a+1):
      print(i) """
 
 #challenge 1-2: Mad lib project
+Name = input("name")
+adjective = input("adjective to decribe sound")
+pronouns = input("pronouns")
+verb1 = input("verb1")
+noun1 = input("place in the house")
 
-x = "test"
-print(f"hello {x}")
+print(" ")
+print(Name, " suddenly woke up to a ", adjective, " sound. " , pronouns, verb1, " down the stairs and into " , noun1, ".")
