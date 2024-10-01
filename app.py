@@ -1,4 +1,4 @@
-""" x = 3
+x = 3
 y = float(3)
 print (x,y)
 
@@ -72,14 +72,16 @@ a=42
 b=54
 for i in range (2,a+1):
  if a % i == 0 and b % i == 0:
-     print(i) """
+     print(i) 
 
 #challenge 1-2: Mad lib project
+print("WATCH OUT FOR GRAMMAR MISTAKES")
 Name = input("name")
 adjective = input("adjective to decribe sound")
 pronouns = input("pronouns")
 verb1 = input("verb1")
 noun1 = input("place in the house")
-
+celebrity_name = input("celebrity name")
+number = input("number")
 print(" ")
-print(Name, " suddenly woke up to a ", adjective, " sound. " , pronouns, verb1, " down the stairs and into " , noun1, ".")
+print(Name, " suddenly woke up to a ", adjective, " sound. " , pronouns, verb1, " down the stairs and into " , noun1, ".", celebrity_name, "was standing right in front of", pronouns, "!", celebrity_name, "puts up", number, "fingers and said that ", Name, "had exactly", number, "hours to wish for whatever", Name, "wanted. ", Name, "being the wonderful, amazing person ", pronouns, "is, wished for everything ", pronouns, "had ever wanted. But when ", pronouns, "told", celebrity_name, ",", Name, "woke up and turns out that was jus a dream and that", pronouns, " had an assignment due in " , number, "minutes and there was still alot to do.")
